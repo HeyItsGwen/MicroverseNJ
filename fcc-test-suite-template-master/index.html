@@ -6,6 +6,18 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
+  <style>
+    body{
+      display: flex;
+    }
+
+    @media (max-width: 600px){
+      body{
+        background-color: blue;
+      }
+    }
+  </style>
+
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
@@ -26,8 +38,9 @@
 
       <video id="video" src="https://www.youtube.com/watch?v=2PW4uKpnCWI">Video</video>
 
-      <form id="form" action="">
-        <input type="email" name="" id="email" placeholder="email">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" name="email" id="email" placeholder="email">
+        <input type='submit' id='submit'>
       </form>
 
     </header>>
